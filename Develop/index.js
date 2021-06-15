@@ -1,6 +1,8 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 
+const fs = require('fs');
+
 // TODO: Create an array of questions for user input
 const questions = () => {
   return inquirer.prompt([
@@ -85,6 +87,12 @@ const questions = () => {
         
     },
     {
+        type: 'checkbox',
+        name: 'license',
+        message: 'Please choose a license you would like to apply to this README:',
+        choices: ['The Unlicense','MIT License','Mozilla Public License','Apache License 2.0']
+    },
+    {
         type: "input",
         name: "test",
         message: "Test instructions (Required)",
@@ -100,8 +108,31 @@ const questions = () => {
   ]);
 };
 
+const generatePage = () => 'Name: Jane, Github: janehub';
+
+// fs.writeFile('readME.md', generatePage(name, github), err => {
+//   if (err) throw err;
+
+//   console.log('ReadME complete! Check out README to see the output!');
+// });
+
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// const writeToFile = fileContent => {
+//   return New Promise((resolve, reject) => {
+//     fs.writeFile('./readme.md', fileContent, err => {
+//       if (err) {
+//         reject(err);
+//         return
+//       }
+//       resolve ({
+//         ok: true;
+//         message: 'File created'
+
+//       });
+//     });
+//   });
+// };
 
 // TODO: Create a function to initialize app
 function init() {}
