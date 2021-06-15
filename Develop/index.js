@@ -119,14 +119,14 @@ const questions = () => {
 
 // TODO: Create a function to write README file
 const writeToFile = fileContent => {
-  return New Promise((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     fs.writeFile('./readme.md', fileContent, err => {
       if (err) {
         reject(err);
         return
       }
       resolve ({
-        ok: true;
+        ok: true,
         message: 'File created'
 
       });
