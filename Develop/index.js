@@ -27,7 +27,7 @@ const questions = () => {
         if (projectInput) {
           return true;
         } else {
-          console.log("Please enter your name!");
+          console.log("Please enter the name of your project!");
           return false;
         }
       }
@@ -104,17 +104,36 @@ const questions = () => {
             return false;
           }
         },
+    },
+    {
+        type: "input",
+        name: "github",
+        message: "Please enter your Github username: (Required)",
+        validate: (githubInput) => {
+          if (githubInput) {
+            return true;
+          } else {
+            console.log("Please enter a Github username!");
+            return false;
+          }
+        },
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "Please enter your email address",
+        validate: (emailInput) => {
+          if (emailInput) {
+            return true;
+          } else {
+            console.log("Please enter your email address!");
+            return false;
+          }
+        },
     }
   ]);
 };
 
-// const generatePage = () => 'Name: Jane, Github: janehub';
-
-// fs.writeFile('readME.md', generatePage(name, github), err => {
-//   if (err) throw err;
-
-//   console.log('ReadME complete! Check out README to see the output!');
-// });
 
 
 // TODO: Create a function to write README file

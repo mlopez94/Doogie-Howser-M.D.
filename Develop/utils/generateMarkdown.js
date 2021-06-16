@@ -2,7 +2,7 @@
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.name}
+  return `
 
   # ${data.project}
 
@@ -15,6 +15,7 @@ function generateMarkdown(data) {
   * [Contribution](#contribution)
   * [License](#license)
   * [Testing](#test)
+  * [Questions](#questions)
 
   ## Installation
   ${data.installation}
@@ -30,6 +31,10 @@ function generateMarkdown(data) {
 
   ## Testing
   ${data.test}
+
+  ## Questions
+  [Github Profile:] (https://github.com/${data.github})
+  For any questions, please contact me [EMAIL](mailto:${data.email})
 
 
 `;
