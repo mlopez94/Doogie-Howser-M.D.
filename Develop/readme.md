@@ -1,9 +1,9 @@
 
 
-  # Red Pill Blue Pill ![badge](https://img.shields.io/badge/license-Apache%20License%202.0-red)
+  # Robot Gladiators ![badge](https://img.shields.io/apm/l/atomic-design-ui.svg?)
 
   ## Description
-  how far does the rabbit hole go?
+  A battle to the death
   
   ## Table of contents
   * [Installation](#installation)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  take the red ppill
+  Install something here
 
   ## Usage
-  Destroy the agents
+  Usage info here
 
   ## Contribution
-  free the humans from enslavement
+  some info here
 
   ## License
-  The license for this project is ![badge](https://img.shields.io/badge/license-Apache%20License%202.0-red)
+  The license for this project is ![badge](https://img.shields.io/apm/l/atomic-design-ui.svg?)
 
   ## Testing
-  Defeat the machines
+  test instructions here
 
   ## Questions
   :octocat: [Github Profile](https://github.com/mlopez94) <br />
