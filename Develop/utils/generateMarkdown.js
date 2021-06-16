@@ -4,7 +4,7 @@
 function generateMarkdown(data) {
   return `
 
-  # ${data.project} [![Alt text]${data.license}]
+  # ${data.project} ![badge](${data.license})
 
   ## Description
   ${data.description}

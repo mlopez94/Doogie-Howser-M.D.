@@ -1,9 +1,9 @@
 
 
-  # Morpheus [![Alt text]https://img.shields.io/badge/license-Mozilla%20Public%20License-blue]
+  # Taskinator ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
 
   ## Description
-  I know kung fu
+  description here
   
   ## Table of contents
   * [Installation](#installation)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  plug in the matrix
+  install something here
 
   ## Usage
-  usage info
+  use here
 
   ## Contribution
-  collab
+  contribute here
 
   ## License
   [![Alt text]https://img.shields.io/badge/license-Mozilla%20Public%20License-blue]
 
   ## Testing
-  test here
+  Test something here
 
   ## Questions
   :octocat: [Github Profile](https://github.com/mlopez94) <br />
