@@ -4,7 +4,7 @@
 function generateMarkdown(data) {
   return `
 
-  # ${data.project} ![Alt text]${data.license}
+  # ${data.project} [![Alt text]${data.license}]
 
   ## Description
   ${data.description}
@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   ${data.contribution}
 
   ## License
-  ${data.license}
+  [![Alt text]${data.license}]
 
   ## Testing
   ${data.test}
