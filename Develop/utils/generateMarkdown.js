@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   ${data.contribution}
 
   ## License
-  [![Alt text]${data.license}]
+  The license for this project is ![badge](${data.license})
 
   ## Testing
   ${data.test}

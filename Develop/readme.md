@@ -1,9 +1,9 @@
 
 
-  # Taskinator ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
+  # Red Pill Blue Pill ![badge](https://img.shields.io/badge/license-Apache%20License%202.0-red)
 
   ## Description
-  description here
+  how far does the rabbit hole go?
   
   ## Table of contents
   * [Installation](#installation)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  install something here
+  take the red ppill
 
   ## Usage
-  use here
+  Destroy the agents
 
   ## Contribution
-  contribute here
+  free the humans from enslavement
 
   ## License
-  [![Alt text]https://img.shields.io/badge/license-Mozilla%20Public%20License-blue]
+  The license for this project is ![badge](https://img.shields.io/badge/license-Apache%20License%202.0-red)
 
   ## Testing
-  Test something here
+  Defeat the machines
 
   ## Questions
   :octocat: [Github Profile](https://github.com/mlopez94) <br />
