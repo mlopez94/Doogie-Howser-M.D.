@@ -1,9 +1,9 @@
 
 
-  # Robot Gladiators ![badge](https://img.shields.io/apm/l/atomic-design-ui.svg?)
+  # Robot Gladiators ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
 
   ## Description
-  A battle to the death
+  This is where the description goes
   
   ## Table of contents
   * [Installation](#installation)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  Install something here
+  Install stuff here
 
   ## Usage
-  Usage info here
+  usage info
 
   ## Contribution
-  some info here
+  contribution
 
   ## License
-  The license for this project is ![badge](https://img.shields.io/apm/l/atomic-design-ui.svg?)
+  The license for this project is ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
 
   ## Testing
-  test instructions here
+  test stuff goes here
 
   ## Questions
   :octocat: [Github Profile](https://github.com/mlopez94) <br />
