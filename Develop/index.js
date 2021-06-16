@@ -141,7 +141,7 @@ function init() {}
 questions()
 .then((responses)=>{
   console.log(responses);
-  writeMarkdown(responses)
+  writeMarkdown(generateMarkdown(responses))
 })
 .catch (err => {
   console.log(err);
