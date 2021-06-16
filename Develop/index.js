@@ -5,7 +5,6 @@ const fs = require("fs");
 
 // TODO: Create an array of questions for user input
 const questions = () => {
-  
   return inquirer.prompt([
     {
       type: "input",
@@ -87,7 +86,7 @@ const questions = () => {
       },
     },
     {
-      type: "checkbox",
+      type: "list",
       name: "license",
       message:
         "Please choose a license you would like to apply to this README:",
@@ -97,20 +96,20 @@ const questions = () => {
         "Mozilla Public License",
         "Apache License 2.0",
       ],
-      validate: (licenseInput) => {
-        if (licenseInput === choices[0]) {
-          license =
-            "https://img.shields.io/badge/license-The%20Unlicense-brightgreen";
-        } else if (licenseInput === choices[1]) {
-          license = "https://img.shields.io/apm/l/atomic-design-ui.svg?";
-        } else if (licenseInput === choices[2]) {
-          license =
-            "https://img.shields.io/badge/license-Mozilla%20Public%20License-blue";
+      filter: (licenseInput) => {
+        if (licenseInput === "The Unlicense") {
+          return "https://img.shields.io/badge/license-The%20Unlicense-brightgreen";
+
+        } else if (licenseInput === "MIT License") {
+          return "https://img.shields.io/apm/l/atomic-design-ui.svg?";
+
+        } else if (licenseInput === "Mozilla Public License") {
+          return "https://img.shields.io/badge/license-Mozilla%20Public%20License-blue";
+
         } else {
-          license =
-            "https://img.shields.io/badge/license-Apache%20License%202.0-red";
+          return "https://img.shields.io/badge/license-Apache%20License%202.0-red";
         }
-      },   
+      },
     },
     {
       type: "input",
