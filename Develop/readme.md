@@ -1,9 +1,9 @@
 
 
-  # Weather Dashboard ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
+  # Git it Done ![badge](https://img.shields.io/badge/license-Apache%20License%202.0-red)
 
   ## Description
-  This tells us todays weather and a 5 forcast
+  find issues in github by user
   
   ## Table of contents
   * [Installation](#installation)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  no install needed
+  no install
 
   ## Usage
-  Usage info goes here
+  Usage info here
 
   ## Contribution
-  Guidlelines can go here
+  no guidelines
 
   ## License
-  The license for this project is ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
+  The license for this project is ![badge](https://img.shields.io/badge/license-Apache%20License%202.0-red)
 
   ## Testing
-  Tests can go here
+  test goes here
 
   ## Questions
   :octocat: [Github Profile](https://github.com/mlopez94) <br />
