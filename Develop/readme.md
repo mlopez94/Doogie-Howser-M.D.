@@ -1,9 +1,9 @@
 
 
-  # Robot Gladiators ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
+  # Weather Dashboard ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
 
   ## Description
-  This is where the description goes
+  This tells us todays weather and a 5 forcast
   
   ## Table of contents
   * [Installation](#installation)
@@ -14,19 +14,19 @@
   * [Questions](#questions)
 
   ## Installation
-  Install stuff here
+  no install needed
 
   ## Usage
-  usage info
+  Usage info goes here
 
   ## Contribution
-  contribution
+  Guidlelines can go here
 
   ## License
   The license for this project is ![badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
 
   ## Testing
-  test stuff goes here
+  Tests can go here
 
   ## Questions
   :octocat: [Github Profile](https://github.com/mlopez94) <br />
