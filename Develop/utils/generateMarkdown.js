@@ -4,7 +4,7 @@
 function generateMarkdown(data) {
   return `
 
-  # ${data.project}
+  # ${data.project} ${data.license}
 
   ## Description
   ${data.description}
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  :octocat: [Github Profile:](https://github.com/${data.github}) <br />
+  :octocat: [Github Profile](https://github.com/${data.github}) <br />
   For any questions, please contact me [Email](mailto:${data.email})
 
 
