@@ -14,7 +14,7 @@ function generateMarkdown(data) {
   * [Usage](#usage)
   * [Contribution](#contribution)
   * [License](#license)
-  * [Testing](#test)
+  * [Testing](#testing)
   * [Questions](#questions)
 
   ## Installation
@@ -33,8 +33,8 @@ function generateMarkdown(data) {
   ${data.test}
 
   ## Questions
-  [Github Profile:] (https://github.com/${data.github})
-  For any questions, please contact me [EMAIL](mailto:${data.email})
+  :octocat: [Github Profile:](https://github.com/${data.github}) <br />
+  For any questions, please contact me [Email](mailto:${data.email})
 
 
 `;
